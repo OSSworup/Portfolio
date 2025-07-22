@@ -59,6 +59,8 @@ npm run dev
 
 ### 📫 Contact
 📧 Email: ossworupojha@gmail.com
+
 🔗 LinkedIn: linkedin.com/in/omm-subham-sworup-ojha-b80144338
+
 💻 GitHub: github.com/OSSworup
 
