@@ -50,17 +50,15 @@ src/
 ```
 
 ### Run Locally
-
+```
 git clone https://github.com/OSSworup/Portfolio
 cd portfolio
 npm install
 npm run dev
-
+```
 
 ### 📫 Contact
-# 📧 Email: ossworupojha@gmail.com
-
-# 🔗 LinkedIn: linkedin.com/in/omm-subham-sworup-ojha-b80144338
-
-# 💻 GitHub: github.com/OSSworup
+📧 Email: ossworupojha@gmail.com
+🔗 LinkedIn: linkedin.com/in/omm-subham-sworup-ojha-b80144338
+💻 GitHub: github.com/OSSworup
 
