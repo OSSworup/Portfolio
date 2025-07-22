@@ -28,13 +28,14 @@ Live Site 👉 [https://your-portfolio-url.com](https://your-portfolio-url.com)
 
 
 
-![Home](https://github.com/OSSworup/Portfolio/blob/58bf425c6a46d2ac0b316da95fd499cfa173d8f1/src/assets/Screenshots/1.png)
+![Home](./src/assets/Screenshots/1.png)
 ![About](./src/assets/Screenshots/2.png)
 ![Projects](./src/assets/Screenshots/3.png)
  
 
 ### Folder Structure
 
+```
 src/
 ├── components/
 │   ├── Header.jsx
@@ -45,6 +46,8 @@ src/
 │   └── Footer.jsx
 ├── App.jsx
 └── main.jsx
+
+```
 
 ### Run Locally
 
