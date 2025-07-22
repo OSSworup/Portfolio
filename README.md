@@ -27,7 +27,7 @@ Live Site 👉 [https://your-portfolio-url.com](https://your-portfolio-url.com)
 ## 🖼️ Screenshots
 
 
-```md
+```
 ![Home](./src/assets/Screenshots/1.png)
 ![About](./src/assets/Screenshots/2.png)
 ![Projects](./src/assets/Screenshots/3.png)
