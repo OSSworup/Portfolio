@@ -8,8 +8,8 @@ export default function About() {
         <h2 className="text-[28px] font-bold text-[#212121] mb-4">About Me</h2>
         <div className="w-16 h-1 bg-[#FF5722] mx-auto mb-6 rounded"></div>
 
-        <div className="max-w-[700px] mx-auto">
-          <p className="text-lg text-[#424242] leading-[1.75] mb-10 text-justify">
+        <div className="max-w-[700px] mx-auto px-4 sm:px-6">
+          <p className="text-base sm:text-lg text-[#424242] leading-relaxed sm:leading-[1.75] mb-6 sm:mb-10 text-left sm:text-justify">
             I'm a{" "}
             <span className="font-semibold text-[#FF5722]">
               self-taught full-stack developer
