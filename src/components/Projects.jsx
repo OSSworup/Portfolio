@@ -38,94 +38,92 @@ const TaskManagerImages=[TMS1, TMS2, TMS3];
 
 export default function Projects() {
   const majorProjects = [
-  {
-    images: FinTrackrImages,
-    title: "FinTrackr",
-    shortDescription: "A full-stack finance planner with recurring logic & secure auth.",
-    fullDescription:
-      "FinTrackr is a MERN-based finance planner where users can track income, expenses, and recurring transactions. It features JWT + bcrypt auth, CRUD for transactions, auto-recurring logic with node-cron, and a responsive UI built with Tailwind, React Query, and React Hook Form.",
-    techStack:
-      "React, Vite, TailwindCSS, React Query, Node.js, Express, MongoDB, JWT, node-cron",
-    links: {
-      github: "https://github.com/OSSworup/mern-finance-planner",
-      live: "https://mern-finance-planner-frontend.onrender.com",
+    {
+      images: FinTrackrImages,
+      title: "FinTrackr",
+      shortDescription: "A full-stack finance tracker with secure auth and recurring logic.",
+      fullDescription:
+        "FinTrackr is a MERN-based personal finance tracker where users can manage income, expenses, and automated recurring transactions. It features secure JWT-based auth with bcrypt, CRUD operations, and auto-entry logic using node-cron. The frontend is built with Tailwind CSS, React Query for real-time syncing, and React Hook Form for smooth user input.",
+      techStack:
+        "React, Vite, Tailwind CSS, React Query, Node.js, Express, MongoDB, JWT, node-cron",
+      links: {
+        github: "https://github.com/OSSworup/mern-finance-planner",
+        live: "https://mern-finance-planner-frontend.onrender.com",
+      },
+      keyLearnings: [
+        "Designed recurring logic using node-cron with timezone handling",
+        "Implemented JWT + bcrypt for secure authentication",
+        "Used React Query and Hook Form for responsive UX",
+        "Managed user-specific data isolation and access control",
+      ],
+      isMajor: true,
     },
-    keyLearnings: [
-      "Built backend cron logic for recurring entries",
-      "Secure auth with JWT & bcrypt",
-      "Used React Query and Hook Form for smooth UX",
-      "Handled user-specific data isolation",
-    ],
-    isMajor: true,
-  },
 
-
-{
-  images: HireWaveImages,
-  title: "HireWave",
-  shortDescription: "A role-based job portal for students and employers.",
-  fullDescription:
-    "HireWave is a full-stack job portal connecting students and employers. Employers can post jobs, manage applicants, and review resumes. Students can build profiles, apply to jobs, and track application statuses. Uses Cloudinary for file uploads and JWT for role-based authentication.",
-  techStack:
-    "React, Tailwind CSS, Node.js, Express.js, MongoDB, JWT, Cloudinary",
-  links: {
-    github: "https://github.com/OSSworup/HireWave-Job-portal",
-    live: "", 
-  },
-  keyLearnings: [
-    "Built role-based login and route protection",
-    "Used Cloudinary for profile and resume uploads",
-    "Handled student-employer workflow and dashboard logic",
-    "Implemented job application tracking with status updates",
-  ],
-  isMajor: true,
-}
-
+    {
+      images: HireWaveImages,
+      title: "HireWave",
+      shortDescription: "A role-based job portal for students and employers.",
+      fullDescription:
+        "HireWave is a MERN stack job platform where students create profiles, apply to jobs, and track applications, while employers post jobs and manage applicants. It uses JWT for secure, role-based access control and Cloudinary for resume and profile uploads. Dashboards and flows are tailored to each user type.",
+      techStack:
+        "React, Tailwind CSS, Node.js, Express.js, MongoDB, JWT, Cloudinary",
+      links: {
+        github: "https://github.com/OSSworup/HireWave-Job-portal",
+        live: "",
+      },
+      keyLearnings: [
+        "Built custom dashboards with role-based routing and JWT auth",
+        "Integrated Cloudinary uploads for resumes and profiles",
+        "Implemented job application workflows and status tracking",
+        "Handled partial codebase takeover and mid-project debugging",
+      ],
+      isMajor: true,
+    }
   ];
 
   const minorProjects = [
     {
-      images: UserPanelImages, 
+      images: UserPanelImages,
       title: "User Panel",
-      shortDescription: "A basic user management app with Node.js and vanilla frontend.",
+      shortDescription: "A CRUD user management app using vanilla JS and Node.",
       fullDescription:
-        "A simple full-stack application where users can sign up, log in, view and update their profile (username and phone number), and delete their account. Built using Node.js, Express, and MongoDB on the backend, with plain HTML, CSS, and JavaScript for the frontend. Designed to practice connecting a basic UI with backend logic.",
+        "A basic full-stack user management system with signup, login, profile editing, and account deletion. Backend built with Node.js, Express, and MongoDB; frontend done using plain HTML, CSS, and JavaScript. Designed to practice connecting REST APIs with vanilla frontend.",
       techStack: "Node.js, Express, MongoDB, HTML, CSS, JavaScript",
       links: {
-        github: "https://github.com/OSSworup/user-crud-app", 
-        live: "", 
+        github: "https://github.com/OSSworup/user-crud-app",
+        live: "",
       },
       keyLearnings: [
-        "Implemented user authentication and profile management",
-        "Connected vanilla JS frontend with backend REST API",
-        "Handled CRUD operations using Express and MongoDB",
-        "Practiced full-stack app structure with basic UI",
+        "Connected frontend with backend REST API using vanilla JavaScript",
+        "Handled full CRUD operations for users",
+        "Implemented simple auth and session logic",
+        "Practiced building full-stack apps without frameworks",
       ],
       isMajor: false,
     },
-    
+
     {
-      images: TaskManagerImages, 
+      images: TaskManagerImages,
       title: "Task Management System",
-      shortDescription: "Backend-only project for secure task CRUD with JWT auth.",
+      shortDescription: "Backend-only project with JWT-secured task management.",
       fullDescription:
-        "A Node.js and Express-based backend project where users can securely manage tasks. Each user can register, log in, and perform CRUD operations on their own tasks. Features include task filtering by status, secure password change, and access control using JWT tokens. No frontend—tested via Postman.",
+        "A backend-only REST API for managing tasks with secure user authentication. Users can register, log in, and perform CRUD operations on their own tasks. Includes JWT-based route protection, password hashing with bcrypt, and task filtering features. Tested using Postman.",
       techStack: "Node.js, Express.js, MongoDB, JWT, bcrypt, dotenv",
       links: {
         github: "https://github.com/OSSworup/Task-Management-System",
-        live: "", 
+        live: "",
       },
       keyLearnings: [
-        "Built REST APIs for task and user management",
-        "Used JWT for user authentication and protected routes",
-        "Implemented secure password handling with bcrypt",
-        "Practiced API testing using Postman and real-world routing structure",
+        "Built secure REST APIs for user and task management",
+        "Used JWT for protected routes and user isolation",
+        "Implemented bcrypt password hashing and token verification",
+        "Practiced API testing and structure with Postman",
       ],
       isMajor: false,
     }
-
-
+    
   ];
+
 
 return (
   <section id="projects" className="bg-[#FAFAFA] py-20 px-6">

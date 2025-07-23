@@ -53,7 +53,7 @@ export default function Contact() {
 
           <div className="mt-10 text-center">
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               download
               className="inline-block bg-[#FF5722] hover:bg-[#E64A19] text-white px-6 py-3 rounded-md font-semibold transition"
             >

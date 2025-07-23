@@ -8,16 +8,19 @@ export default function About() {
         <h2 className="text-[28px] font-bold text-[#212121] mb-4">About Me</h2>
         <div className="w-16 h-1 bg-[#FF5722] mx-auto mb-6 rounded"></div>
 
-        <p className="text-[18px] text-[#424242] leading-relaxed mb-10">
-          I'm a{" "}
-          <span className="font-semibold text-[#FF5722]">
-            self-taught full-stack developer
-          </span>{" "}
-          with a degree in Computer Science and experience building real-world
-          applications. I enjoy crafting clean UIs with React and building robust
-          backends using Node.js and Express. Currently leveling up my frontend
-          design skills and looking to join a team where I can contribute and grow.
-        </p>
+        <div className="max-w-[700px] mx-auto">
+          <p className="text-lg text-[#424242] leading-[1.75] mb-10 text-justify">
+            I'm a{" "}
+            <span className="font-semibold text-[#FF5722]">
+              self-taught full-stack developer
+            </span>{" "}
+            with a degree in Computer Science and experience building real-world
+            applications. I enjoy crafting clean UIs with React and building robust
+            backends using Node.js and Express. Currently enhancing my frontend skills
+            with real-world projects. Eager to join a team where I can learn fast,
+            build cool stuff, and ship production-ready features.
+          </p>
+        </div>
 
         <h3 className="text-[22px] font-semibold text-[#212121] mb-6">
           Tech Stack & Tools
