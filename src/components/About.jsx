@@ -12,13 +12,13 @@ export default function About() {
           <p className="text-base sm:text-lg text-[#424242] leading-relaxed sm:leading-[1.75] mb-6 sm:mb-10 text-left sm:text-justify">
             I'm a{" "}
             <span className="font-semibold text-[#FF5722]">
-              self-taught full-stack developer
+              full-stack developer
             </span>{" "}
             with a degree in Computer Science and experience building real-world
-            applications. I enjoy crafting clean UIs with React and building robust
-            backends using Node.js and Express. Currently enhancing my frontend skills
-            with real-world projects. Eager to join a team where I can learn fast,
-            build cool stuff, and ship production-ready features.
+            applications. I specialize in crafting clean, responsive UIs with
+            React and building robust backends using Node.js and Express. 
+            I’m constantly improving my skills through real-world projects, 
+            and I love helping businesses and individuals bring their ideas to life with production-ready solutions.
           </p>
         </div>
 
