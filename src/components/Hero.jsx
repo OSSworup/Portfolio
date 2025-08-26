@@ -14,7 +14,7 @@ export default function Hero() {
           <h1 className="text-3xl md:text-[36px] font-bold">Omm Subham Sworup Ojha</h1>
           <h2 className="text-[20px] text-[#424242]">Full Stack Web Developer</h2>
           <p className="text-[16px] text-[#757575] mt-2">
-            Turning ideas into full-stack web apps with React, Node, and MongoDB — currently open to junior dev roles and internships.
+            Turning ideas into full-stack web apps with React, Node, and MongoDB.
           </p>
           <a
             href="#projects"
